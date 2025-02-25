@@ -33,7 +33,7 @@ public class AuthorService {
         }
 
 
-        return null;// test change to check what rebase is doing
+        return null;// to rewrite entire commit history
 
     }
 }
