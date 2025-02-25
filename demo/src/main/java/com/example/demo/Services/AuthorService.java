@@ -28,9 +28,10 @@ public class AuthorService {
     }
 
     public AuthorEntity getAuthorById(Long id) {
-        if(authorRepo.findById(id).isPresent()){
+        if(authorRepo.findById(id).isPresent()) {
             return authorRepo.findById(id).get();
         }
+
         return null;
     }
 }
